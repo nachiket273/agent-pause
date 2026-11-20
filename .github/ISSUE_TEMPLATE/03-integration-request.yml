@@ -1,0 +1,42 @@
+name: Runtime integration request
+description: Propose support for an agent framework or execution runtime.
+title: "[Integration]: "
+labels: ["integration", "triage"]
+body:
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime / framework
+      placeholder: "Name and project URL"
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Intended use case
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Relevant runtime capabilities
+      description: Link docs for interrupts, checkpoints, cancellation, state inspection, or persistence.
+    validations:
+      required: true
+  - type: textarea
+    id: semantics
+    attributes:
+      label: Known semantic differences or limitations
+      description: For example, does resume continue from a checkpoint or rerun a node?
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal example
+      render: python
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the existing roadmap and integration requests.
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and usage help
+    url: https://github.com/REPLACE_OWNER/agent-pause/discussions/categories/q-a
+    about: Ask questions and get help using Agent Pause.
+  - name: Ideas and design discussion
+    url: https://github.com/REPLACE_OWNER/agent-pause/discussions/categories/ideas
+    about: Discuss proposals before opening a feature request.
+  - name: Security concerns
+    url: https://github.com/REPLACE_OWNER/agent-pause/security/policy
+    about: Do not report security vulnerabilities in public issues.

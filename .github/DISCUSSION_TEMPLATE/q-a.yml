@@ -1,0 +1,41 @@
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: "Ask usage, architecture, or integration questions here. Do not include credentials or sensitive execution data."
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Getting started
+        - Execution lifecycle
+        - Pause and safe-point behaviour
+        - State inspection
+        - Resume and recovery
+        - Runtime integration
+        - SDK / API
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to do?
+      description: Explain your goal and what you are unsure about.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What have you tried?
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Agent Pause version / commit
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and version

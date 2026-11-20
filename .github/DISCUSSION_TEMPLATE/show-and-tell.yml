@@ -1,0 +1,30 @@
+title: "[Show and tell]: "
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: "Share a demo, integration, experiment, or something you learned using Agent Pause."
+  - type: textarea
+    id: project
+    attributes:
+      label: What did you build?
+    validations:
+      required: true
+  - type: textarea
+    id: integration
+    attributes:
+      label: How does it use Agent Pause?
+    validations:
+      required: true
+  - type: textarea
+    id: learnings
+    attributes:
+      label: What worked, and what did you learn?
+  - type: input
+    id: link
+    attributes:
+      label: Demo or repository link
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback or questions for the community

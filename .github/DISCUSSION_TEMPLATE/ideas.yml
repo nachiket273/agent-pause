@@ -1,0 +1,28 @@
+title: "[Idea]: "
+labels: ["discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this category for early-stage ideas and design exploration."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user or engineering problem are you exploring?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed idea
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs and open questions
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Links to related projects, docs, papers, or discussions.
